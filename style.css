@@ -16,13 +16,16 @@ main {
   border-color: 3px rgb(56, 55, 55);
 }
 
-#rgb-color {
+
+#rgb-color1 {
   background-color: (168, 34, 1);
   border-radius: 50%;
   width: 70px;
   height: 70px;
   border: 2px solid black;
   display: inline-block;
+  color : (168, 34, 1);
+  text-align: center;
 }
 
 #rgb-color2 {
