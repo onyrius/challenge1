@@ -30,13 +30,27 @@ let allColors = [rgb1, rgb2, rgb3, rgb4, rgb5, rgb6];
 let corAleatóriaParagrafo = Math.floor(Math.random()*allColors.length);
 
 let capturandoCorRgb = window.getComputedStyle(allColors[corAleatóriaParagrafo]).backgroundColor;
-console.log(capturandoCorRgb);
 let corParaAdvinhar = capturandoCorRgb.split('rgb')[1];
-console.log(corParaAdvinhar)
 let rgbColor = document.querySelector('#rgb-color');
 
 rgbColor.innerHTML = corParaAdvinhar;
 
-//------------ 
+//------------ clicar e retornar resposta ---
+
+let answer = document.querySelector('#answer');
+let allBall = document.querySelectorAll('.ball')
+for (let index = 0; index < allBall.length; index +=1) {
+    allBall[index].addEventListener('click', escolher)
+}
+
+function escolher (event) {
+    console.log( event.target.style.backgroundColor)
+    if (event.target.style.backgroundColor === 'rgb' + corParaAdvinhar) {
+        answer.innerHTML = 'Acertou!'
+        } else {
+        answer.innerHTML = 'Errou! Tente novamente!'   
+    }
+    
+}
 
 /**Source https://www.youtube.com/watch?v=tUJvE4xfTgo&ab_channel=VictorRibeiro */
