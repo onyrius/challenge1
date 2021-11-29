@@ -54,3 +54,11 @@ function escolher (event) {
 }
 
 /**Source https://www.youtube.com/watch?v=tUJvE4xfTgo&ab_channel=VictorRibeiro */
+
+//-------- botão reiniciar -------
+let reiniciarButton = document.querySelector('#reset-game')
+reiniciarButton.addEventListener('click', reloadPage);
+ function reloadPage() {
+    document.location.reload(true)
+ }
+ //**https://developer.mozilla.org/pt-BR/docs/Web/API/Location/reload */
