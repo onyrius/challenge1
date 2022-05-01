@@ -1,6 +1,6 @@
 # Week Challenge 1-5
 
-<p> Foi uma semana tão intensa que acabei escrevendo sobre essa experiência!! Um artigo sobre o medo e os desafios de ser mulher no mundo da Tecnologia<a href="https://www.linkedin.com/pulse/sobre-o-medo-suelen-arruda/?trackingId=Llj%2F9cqjR6i3ZzX7mxoS4Q%3D%3D">Eu senti medo!</a> 
+<p> Foi uma semana tão intensa que acabei escrevendo sobre essa experiência!! Um artigo sobre o medo e os desafios de ser mulher no mundo da Tecnologia <a href="https://www.linkedin.com/pulse/sobre-o-medo-suelen-arruda/?trackingId=Llj%2F9cqjR6i3ZzX7mxoS4Q%3D%3D">Eu senti medo!</a> 
 </p>
 
 ## Guess Color Project
